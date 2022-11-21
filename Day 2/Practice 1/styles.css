@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.heading {
+  text-align: center;
+  color: #ff0000;
+  font-family: sans-serif;
+}
+.basic-p {
+  text-align: center;
+  color: #808080;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 5px;
+}
