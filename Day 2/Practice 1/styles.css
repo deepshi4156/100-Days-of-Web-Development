@@ -3,15 +3,31 @@
   margin: 0px;
   box-sizing: border-box;
 }
-.heading {
+body {
   text-align: center;
+  background-color: rgb(236, 217, 207);
+  margin: 30px;
+}
+.heading {
+  font-family: "Lora", "serif";
+}
+a {
+  text-decoration: none;
   color: #ff0000;
-  font-family: sans-serif;
+}
+#todays-challenge {
+  font-weight: bold;
+  color: #dc143c;
+  font-size: 30px;
+  font-family: "PT Sans", sans-serif;
 }
 .basic-p {
-  text-align: center;
   color: #808080;
-  font-size: 16px;
-  font-family: sans-serif;
-  margin-top: 5px;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }

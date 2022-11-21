@@ -1,4 +1,4 @@
 What have I learnt on Day 1:
 1. Learnt about how web works, basic terminologies related to internet - DNS, HTTP, TCP/IP, request repsponse model
-2. 
-3. 
+2. Learnt basics of CSS like why is it called Cascade, colors, basic selectors, font-szie px unit 
+3. Adding external google font, fallback content
