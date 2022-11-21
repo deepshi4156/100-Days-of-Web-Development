@@ -1,24 +1,11 @@
-* {
-  padding: 0px;
-  margin: 0px;
-  box-sizing: border-box;
-}
-body {
-  text-align: center;
-  background-color: rgb(236, 217, 207);
-  margin: 30px;
-}
 .heading {
   font-family: "Lora", "serif";
-}
-a {
-  text-decoration: none;
-  color: #ff0000;
+  font-weight: bold;
 }
 #todays-challenge {
   font-weight: bold;
   color: #dc143c;
-  font-size: 30px;
+  font-size: 40px;
   font-family: "PT Sans", sans-serif;
 }
 .basic-p {
