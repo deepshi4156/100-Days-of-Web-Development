@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,8 +6,8 @@
     <title>Sample Form</title>
   </head>
   <body>
-    <form>
-      <label for="">Username</label><br />
+    <form method="post">
+      <label for="username">Username</label><br />
       <input type="text" id="username" required /><br />
       <label for="email">Email Id:</label><br />
       <input
@@ -19,6 +18,28 @@
       /><br />
       <label for="country">Country Name</label><br />
       <input type="text" id="country" value="India" /><br />
+      <label>Gender</label><br>
+      <input type="radio" name="gender" value="female">Female</input><br>
+      <input type="radio" name="gender" value="male">Male</input><br>
+      <input type="radio" name="gender" value="other">Other</input><br>
+      <label for="course">Course Done</label><br>
+      <input type="checkbox" name="course" value="btech" checked>Btech</input><br>
+      <input type="checkbox" name="course" value="mtech">Mtech</input><br>
+      <input type="checkbox" name="course" value="bsc">B.Sc</input><br>
+      <input type="checkbox" name="course" value="msc">M.Sc</input><br>
+      <label for="dob">Place Of Birth</label><br>
+      <select name="pob">
+        <option value="Delhi NCR" selected>Delhi NCR</option>
+        <option value="Uttar Pradesh">Uttar Pradesh</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Chennai">Chennai</option>
+      </select><br>
+      <textarea name="description" id="description" rows="5" cols="30">Describe Yourself</textarea><br>
+      <audio controls>
+        <source src="static/audio.mp3" type="audio/mp3">
+        <source src="static/audio.ogg" type="audio/ogg">
+      </audio>
+      <video src="static/video.mp4" height="200" width="200" type="video/mp4">Browser doesn't support this format</video>
       <label for="password">Password</label><br />
       <input type="password" id="password" required /><br />
       <input type="submit" />
