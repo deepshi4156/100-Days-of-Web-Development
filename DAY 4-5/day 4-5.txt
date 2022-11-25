@@ -1,2 +1,3 @@
 Learnt about core concepts of CSS - Inheritance, Cascading and Specificity
 Learnt about box model.
+learnt about combinators and type of elements - inline/block

@@ -10,6 +10,9 @@ a {
   font-size: 22px;
   padding: 12px 40px;
 }
+header p {
+  margin-bottom: 32px;
+}
 a:hover {
   background-color: rgb(180, 12, 90);
   text-decoration: none;
@@ -27,8 +30,14 @@ ol {
   width: 500px;
 }
 li {
-  background-color: #e07171;
+  background-color: #e06f87;
   margin: 20px;
   border-radius: 5px;
   padding: 16px;
+}
+h2 {
+  color: #1e801e;
+}
+.highlight-goals {
+  background-color: #f08da2;
 }
