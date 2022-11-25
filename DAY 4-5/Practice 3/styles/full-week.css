@@ -1,0 +1,28 @@
+h1 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 48px;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: crimson;
+  font-size: 22px;
+}
+a:hover {
+  background-color: rgb(180, 12, 90);
+  text-decoration: none;
+}
+p {
+  color: #006400;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: "PT Sans", sans-serif;
+}
+ol {
+  list-style: none;
+}
+li {
+  background-color: #e07171;
+  margin-top: 15px;
+  border-radius: 5px;
+}

@@ -1,0 +1,20 @@
+.heading {
+  font-family: "Lora", "serif";
+  font-weight: bold;
+}
+#todays-challenge {
+  font-weight: bold;
+  color: #dc143c;
+  font-size: 40px;
+  font-family: "PT Sans", sans-serif;
+}
+.basic-p {
+  color: #808080;
+  font-size: 15px;
+  font-family: "PT Sans", sans-serif;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
